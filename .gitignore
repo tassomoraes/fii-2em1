@@ -1,0 +1,22 @@
+# Ambiente Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Dados gerados pelo app e pelo notebook (refeitos a cada execução)
+data/fii_resultado.csv
+data/fii_2em1.csv
+data/fii_2em1.xlsx
+
+# Sistema / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
